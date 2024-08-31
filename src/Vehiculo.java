@@ -2,9 +2,9 @@ public abstract class Vehiculo {
     private String marca;
     private String modelo;
     private Integer año;
-    private double kilometraje;
+    private int kilometraje;
 
-    public Vehiculo(String marca, String modelo,Integer año, double kilometraje) {
+    public Vehiculo(String marca, String modelo,Integer año, int kilometraje) {
         this.marca = marca;
         this.modelo = modelo;
         this.año = año;
@@ -21,7 +21,7 @@ public abstract class Vehiculo {
         public Integer getAño() {
             return año;
         }
-        public double getKilometraje() {
+        public int getKilometraje() {
             return kilometraje;
         }
 

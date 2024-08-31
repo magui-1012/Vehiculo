@@ -1,7 +1,7 @@
 public class Camion extends Vehiculo {
     private Integer capacidadDeCarga;
 
-    public  Camion (String marca, String modelo,Integer año, double kilometraje,Integer capacidadDeCarga) {
+    public  Camion (String marca, String modelo,Integer año, int kilometraje,Integer capacidadDeCarga) {
         super(marca, modelo,año,kilometraje);
         this.capacidadDeCarga = capacidadDeCarga;
     }

@@ -1,7 +1,7 @@
 public class Motocicleta extends Vehiculo {
     private String tipoDeManillar;
 
-    public  Motocicleta (String marca, String modelo,Integer año, double kilometraje,String tipoDeManillar) {
+    public  Motocicleta (String marca, String modelo,Integer año, int kilometraje,String tipoDeManillar) {
         super(marca, modelo,año,kilometraje);
         this.tipoDeManillar = tipoDeManillar;
     }
